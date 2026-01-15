@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .one {
+                border-radius: 10px;
+            }
+
+            .two {
+                height: 168px;
+                width: 168px;
+                object-fit: cover;
+                transition: object-position 0.3s;
+            }
+            .two:hover {
+                object-position: left;
+            }
+            .two:active {
+                object-position: right;
+            }
+
+            .three {
+                height: 168px;
+                width: 168px;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Rounded borders</h1>
+        <img class="one" src="images/shinchan_friends.png" alt="shinchan">
+        <h1>Particular postion: Center, Left(hover), Right(click)</h1>
+        <img class="two" src="images/shinchan_friends.png" alt="shinchan">
+        <h1>Circle Frame</h1>
+        <img class="three" src="images/shinchan_friends.png" alt="shinchan">
+    </body>
+</html>
