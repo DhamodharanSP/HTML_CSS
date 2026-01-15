@@ -1,3 +1,6 @@
 .thumbnail {
     width: 300px;
+    height: 300px;
+    object-fit: cover;
+    /* object-position: left, right to determine the position of image withing the container height x width; */
 }
