@@ -1,6 +1,6 @@
 .thumbnail {
     width: 300px;
     height: 300px;
-    object-fit: cover;
-    /* object-position: left, right to determine the position of image withing the container height x width; */
+    object-fit: contain; 
+    /* object-position: top, bottom; "contain" is used to display the full image within the container;
 }
