@@ -5,11 +5,54 @@
             * {
                 font-family: 'Verdana';
             }
+
+            div.tweet {
+                box-shadow: 0 0 5px rgba(0,0,0,0.3);
+                border-radius: 6px;
+                width: 500px;
+                display: inline-block;
+                padding: 10px;
+            }
+
+            .profile {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                vertical-align: middle;
+            }
+
+            input.tweet {
+                border: none;
+                width: 300px;
+                padding: 5px 10px;
+                margin: 5px;
+                color: rgb(120, 120, 120);
+                font-size: 15px;
+            }
+
+            input.tweet:focus {
+                color: rgb(120, 120, 120);
+                outline: none;
+                font-size: 15px;
+            }
+
+            button.tweet {
+                background-color: rgb(0, 157, 255);
+                border: none;
+                border-radius: 20px;
+                padding: 10px 20px;
+                color: white;
+                font-weight: bold;
+                margin-left: 20px;
+                box-shadow: 0 0 5px rgba(0,0,0,0.2);
+            }
+
             .card {
                 display: inline-block;
                 box-shadow: 0 0 5px rgba(0,0,0,0.3);
                 margin: 10px;
             }
+
             .frame {
                 height: 150px;
                 width: 150px;
@@ -23,11 +66,13 @@
                 border-radius: 5px;
                 margin: 5px;
             }
+
             .name {
                 font-weight: bold;
                 font-size: 18px;
                 margin: 5px;
             }
+
             .friends {
                 margin: 5px;
                 color: rgb(120, 120, 120);
@@ -36,9 +81,16 @@
         </style>
     </head>
     <body>
+        <h1>Ex1 - Tweet box</h1>
+        <div class="tweet">
+            <img class="profile" src="images/shinchan.png" alt="shinchan">
+            <input class="tweet" type="text" placeholder="What's happening?">
+            <button class="tweet">Tweet</button>
+        </div>
+
         <h1>Ex2 - Single Card</h1>
         <div class="card">
-            <img class="frame" src="shinchan.png" alt="shinchan">
+            <img class="frame" src="images/shinchan.png" alt="shinchan">
             <div style="padding: 5px">
                 <p class="name">Shinchan</p>
                 <p class="friends">3 Mutual friends</p>
@@ -48,7 +100,7 @@
 
         <h1>Ex3 - Multiple Cards</h1>
         <div class="card">
-            <img class="frame" src="shinchan.png" alt="shinchan">
+            <img class="frame" src="images/shinchan.png" alt="shinchan">
             <div style="padding: 5px">
                 <p class="name">Shinchan</p>
                 <p class="friends">3 Mutual friends</p>
@@ -56,7 +108,7 @@
             </div>   
         </div>
         <div class="card">
-            <img class="frame" src="kasama.png" alt="kasama">
+            <img class="frame" src="images/kasama.png" alt="kasama">
             <div style="padding: 5px">
                 <p class="name">Kasama</p>
                 <p class="friends">2 Mutual friends</p>
@@ -64,7 +116,7 @@
             </div>   
         </div>
         <div class="card">
-            <img class="frame" src="himawari.png" alt="himawari">
+            <img class="frame" src="images/himawari.png" alt="himawari">
             <div style="padding: 5px">
                 <p class="name">Himawari</p>
                 <p class="friends">1 Mutual friends</p>
@@ -72,7 +124,7 @@
             </div>   
         </div>
         <div class="card">
-            <img class="frame" src="puri.png" alt="puri puri zeimon">
+            <img class="frame" src="images/puri.png" alt="puri puri zeimon">
             <div style="padding: 5px">
                 <p class="name">Puri Puri</p>
                 <p class="name">Zeimon</p>
