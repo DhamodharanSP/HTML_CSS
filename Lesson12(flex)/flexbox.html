@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex box</title>
+        <style>
+
+        </style>
+    </head>
+    <body style="padding-bottom: 500px">
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 30px;
+        ">
+            <div style="
+                background-color: lightpink;
+            ">
+                div1 (flex only takes space which is required, i.e., like "display: inline-block")
+            </div>
+            
+            <div style="
+                background-color: lightskyblue;
+            ">
+                div2
+            </div>
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 30px;
+        ">
+            <div style="
+                background-color: lightpink;
+                width: 100px;
+            ">
+                100px
+            </div>
+            
+            <div style="
+                background-color: lightskyblue;
+                flex: 1;
+            ">
+                flex: 1
+            </div>
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 30px;
+        ">
+            <div style="
+                background-color: lightpink;
+                flex: 1;
+            ">
+                flex: 1
+            </div>
+            
+            <div style="
+                background-color: lightskyblue;
+                flex: 2;
+            ">
+                flex: 2
+            </div>
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 30px;
+        ">
+            <div style="
+                background-color: lightpink;
+                flex: 1;
+            ">
+                flex: 1
+            </div>
+            
+            <div style="
+                background-color: lightskyblue;
+                flex: 2;
+            ">
+                flex: 2
+            </div>
+
+            <div style="
+                background-color: lightpink;
+                flex: 1;
+            ">
+                flex: 1
+            </div>
+        </div>
+
+        <h3>Properties</h3>
+        <p>justify-content: (It'll justify the contents horizontally)</p>
+        <ul>
+            <li>start</li>
+            <li>end</li>
+            <li>center</li>
+            <li>space-around</li>
+            <li>space-between</li>
+            <li>space-evenly</li>
+        </ul>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 30px;
+            height: 100px;
+            border: 2px solid gray;
+            justify-content: space-evenly;
+        ">
+            <div style="
+                background-color: lightpink;
+                width: 100px;
+            ">
+                100px
+            </div>
+            
+            <div style="
+                background-color: lightskyblue;
+                width: 100px;
+            ">
+                100px
+            </div>
+
+            <div style="
+                background-color: lightpink;
+                width: 100px;
+            ">
+                100px
+            </div>
+        </div>
+        
+        <p>align-items: (It'll align the items vertically)</p>
+        <ul>
+            <li>start</li>
+            <li>end</li>
+            <li>center</li>
+        </ul>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 30px;
+            height: 100px;
+            border: 2px solid gray;
+            justify-content: space-evenly;
+            align-items: center;
+        ">
+            <div style="
+                background-color: lightpink;
+                width: 100px;
+            ">
+                100px
+            </div>
+            
+            <div style="
+                background-color: lightskyblue;
+                width: 100px;
+            ">
+                100px
+            </div>
+
+            <div style="
+                background-color: lightpink;
+                width: 100px;
+            ">
+                100px
+            </div>
+        </div>
+    </body>
+</html>
