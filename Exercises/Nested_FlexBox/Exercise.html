@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Nested flex box exercises</title>
+        <link rel="stylesheet" href="styles/general.css">
+    </head>
+    <body>
+        <h3>Ex1</h3>
+        <div class="flex">
+            <div class="pink flex ex1" style="width: 100px">
+                <p class="black">Item1</p>
+            </div>
+            <div class="blue" style="width: 200px"></div>
+        </div>
+
+        <h3>Ex2</h3>
+        <div class="flex">
+            <div class="pink" style="width: 100px"></div>
+            <div class="blue" style="width: 200px">
+                <div class="flex">
+                    <p>row1</p>
+                </div>
+                <div class="flex" style="
+                    justify-content: space-between;
+                ">
+                    <p class="black">row2</p>
+                    <p class="black">row2</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

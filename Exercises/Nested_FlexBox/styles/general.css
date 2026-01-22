@@ -1,0 +1,28 @@
+.pink {
+    background-color: lightpink;
+    height: 60px;
+}
+
+.blue {
+    background-color: lightskyblue;
+    height: 60px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    margin: 0;
+}
+
+p.black {
+    background-color: black;
+    color: white;
+}
+
+.ex1 {
+    justify-content: center;
+    align-items: center;
+}
