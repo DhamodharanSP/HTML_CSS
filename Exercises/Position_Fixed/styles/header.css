@@ -1,0 +1,113 @@
+.header {
+    background-color: rgb(25,25,25);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.3);
+}
+body {
+    background-color: rgb(240,240,240);
+}
+p {
+    margin: 0;
+    font-family: 'Verdana'
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px white;
+}
+.name {
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.add-btn, .msg-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 5px;
+    box-shadow: 2px 2px 5px rgba(255,255,255,0.3);
+}
+
+.add-btn {
+    background-color: rgb(49, 49, 213);
+    color: white;
+}
+
+.msg-btn {
+    background-color: rgb(230,230,230);
+    color: black;
+}
+
+.sidebar1 {
+    background-color: rgb(30,30,30);
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.pic-frd {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+
+.sidebar2 {
+    background-color: rgb(50,50,50);
+    position: fixed;
+    top: 60px;
+    left: 70px;
+    bottom: 0;
+    width: 200px;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 12px;
+}
+
+.plus {
+    color: rgb(150,150,150);
+    font-size: 20px;
+}
+
+.gray {
+    color: rgb(150,150,150);
+    margin: 15px 0;
+}
