@@ -1,0 +1,127 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(223, 223, 223)
+}
+
+.left-section {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+}
+
+.menu {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.youtube-logo {
+    width: 90px;
+}
+
+.middle-section {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    flex: 1;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 8.5px;
+    width: 0;
+    box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
+}
+
+.search-bar::placeholder {
+    font-family: Roboto, 'Arial';
+    font-size: 15px;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.search-btn {
+    height: 36px;
+    width: 55px;
+    padding-top: 5px;
+    margin-left: -1px;
+    border: 1px solid rgb(205, 205, 205);
+    cursor: pointer;
+}
+
+.search-logo {
+    width: 23px;
+}
+
+.search-voice {
+    border-radius: 50%;
+    border: none;
+    padding-bottom: 0;
+    height: 36px;
+    width: 36px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-mic {
+    margin-top: 2px;
+    width: 20px;
+}
+
+.right-section {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 6px;
+    flex-shrink: 0;
+}
+
+.access-icons {
+    height: 23px;
+}
+
+.user-acc {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 50%;
+}
+
+.notification {
+    position: relative;
+}
+
+.notification-count {
+    position: absolute;
+    top: -2px;
+    right: -4px;
+    background-color: rgb(215, 0, 0);
+    color: white;
+    padding: 2px 5px;
+    font-size: 8px;
+    font-family: 'Roboto','Arial';
+    border: 1px solid white;
+    border-radius: 50%;
+}
